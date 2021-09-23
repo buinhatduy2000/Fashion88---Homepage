@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Gotham HTF Book', sans-serif;
+
+  }
+ul {
+	list-style: none;
+}
+
+li{
+    margin: 25px 0 25px 0;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+.item-1{
+    position: relative;
+}
+.item-2{
+    position: relative;
+}
+.item-3{
+    position: relative;
+}
+.item-4{
+    position: relative;
+}
+.item-5{
+    position: relative;
+    top: 50px;
+}
+.map{
+    position: relative;
+    top: 650px;
+    left: 150px;
+}
+
+.item-2,.item-3{
+    display: inline-block;
+}
+
+.menu{
+    position: absolute;
+    top: 150px;
+
+    
+}
+
+.text-content-1{
+    position: absolute;
+    font-size: 50px;
+    top: 350px;
+    left: 550px;
+}
+
+.text-content-2{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 310px;
+    left: 150px;
+}
+
+.text-content-3{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 250px;
+    left: 135px;
+    text-align: center;
+}
+
+.center, .center-smaller{
+margin: 0;
+}
+
+.item-4>p{
+    position: absolute;
+    top: 10px;
+    left: 410px;
+}
+.image{
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+}
+.item-1>img, .item-2>img, .item-3>img{
+    opacity: 0.8;
+}
+
+.sub{
+    position: absolute;
+    top: 375px;
+    left: 50px;
+}
+.item-5>ul{
+    position: absolute;
+    top: 375px;
+    left: 1180px;
+}
+.item-5>ul>li{
+    margin: 5px;
+}
+.media{
+    position: absolute;
+    top:425px;
+    left: 10px;
+}
+.item-5>.media>ul>li{
+    display: inline-block;
+}
+.item-5>.media>ul>li>a{
+    font-size:30px;
+    margin: 10px;
+}
+.map>ul>li{
+    display: inline-block;
+}
+.input-form{
+    border: 0.1px solid;
+    padding: 10px 180px;
+}
+
+.submit-form{
+    background-color: black;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 10px -2px;
+}
